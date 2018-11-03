@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>Sistema Imobiliário - ImobWEB</title>
   </head>
   <body>
@@ -27,7 +27,7 @@
              <div class="input-group-prepend">
                <span class="input-group-text" id="inputGroup-sizing-sm">Imóvel</span>
              </div>
-             <input type="text" class="form-control" placeholder="Código do Imóvel" aria-label="Username" aria-describedby="basic-addon1" readonly>
+             <input type="" class="form-control" placeholder="Código do Imóvel" aria-label="Username" aria-describedby="basic-addon1" readonly>
            </div>
          </div>
 
@@ -36,7 +36,7 @@
              <div class="input-group-prepend">
                <span class="input-group-text" id="inputGroup-sizing-sm">Proprietário</span>
              </div>
-             <input type="text" class="form-control" placeholder="Proprietário" aria-label="Username" aria-describedby="basic-addon1" readonly>
+             <input type="" class="form-control" placeholder="Proprietário" aria-label="Username" aria-describedby="basic-addon1" readonly>
            </div>
            </div>
 
@@ -65,14 +65,14 @@
 
           <div class="form-group col-4">
             <label for="inputAddress">Localidade</label>
-            <input type="text" class="form-control" id="inputclendereco" placeholder="Localidade do imóvel" readonly>
+            <input type="cllocal" class="form-control" id="inputclendereco" placeholder="Localidade do imóvel" readonly>
           </div>
         </div>
 
          <div class="form-row">
             <div class="form-group col-4">
               <label for="inputcltel">Valor (R$)</label>
-              <input type="text" class="form-control" id="inputcltel" placeholder="R$ 9999999,00" readonly>
+              <input type="valor" class="form-control" id="inputcltel" placeholder="R$ 9999999,00" readonly>
             </div>
             <div class="form-group col-2"></div>
             <div class="form-group col-4">
@@ -84,17 +84,15 @@
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck3" disabled>
                 <label class="form-check-label" for="defaultCheck3">Imóvel ativo</label>
               </div>
-
-       </div>
-        <div class="container col-6" align="center">
-          <button type="button" class="btn btn-outline-primary">Alugar este Imóvel</button>
-          <button type="button" class="btn btn-outline-primary">Vendas este Imóvel</button>
+             </div>
+        </div>
+        <div class="form-row">
+        <div class="container col-3">
+            <a class="btn btn-primary btn-block" href="#" role="button">Alugar esse imóvel</a>
+            <a class="btn btn-primary btn-block" href="#" role="button">Vender esse imóvel</a>
+            <a class="btn btn-danger btn-block" href="opimoveis.html" role="button">Voltar</a><br>
+        </div>
       </div>
-    </div>
-    <div class="container col-10" align="right">
-      <button type="button" class="btn btn-outline-primary"><a href="opimoveis.html">Voltar</button>
-    </div>
-
 
   </body>
 </html>
